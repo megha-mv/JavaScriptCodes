@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>REGISTRATION FORM</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Username</label>
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="Enter your name"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Email</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Enter your email"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Phone number</label>
+          <input
+            type="number"
+            name=""
+            id="phone"
+            placeholder="Enter your Phone Number"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Password</label>
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Enter new password"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            name=""
+            id="cpassword"
+            placeholder="Enter new password again"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <input type="submit" value="Submit" class="btn" name="" />
+      </form>
+    </div>
+    <script src="src/formvalid.js" type="text/javaScript"></script>
+  </body>
+</html>
